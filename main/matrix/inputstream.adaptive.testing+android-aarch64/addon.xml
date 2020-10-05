@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="inputstream.adaptive.testing" name="InputStream Adaptive Testing" provider-name="peak3d" version="2.6.0-36-g7b75915">
+<addon id="inputstream.adaptive.testing" name="InputStream Adaptive Testing" provider-name="peak3d" version="2.6.0-37-gca4138a">
   <requires>
 <import addon="kodi.binary.global.main" minversion="1.2.0" version="1.2.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
@@ -14,7 +14,8 @@
     <description lang="en_GB">InputStream client for adaptive streams</description>
     <description lang="es_ES">Cliente InputStream para flujo de datos adaptativos</description>
     <platform>android-aarch64</platform>
-    <news>[B]Version v2.6.0-36-g7b75915[/B]
+    <news>[B]Version v2.6.0-37-gca4138a[/B]
+- add remaining builds
 - wrong branch name
 - deploy try 2
 - deploy/merge
