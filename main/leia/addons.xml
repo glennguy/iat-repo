@@ -151,7 +151,7 @@
 [B]Version 2.6.0[/B]
 - Initial version
 </news><path>inputstream.adaptive.testing+android-armv7/inputstream.adaptive.testing-2.6.0-37-gca4138a.zip</path></extension>
-</addon><addon id="inputstream.adaptive.testing" name="InputStream Adaptive Testing" provider-name="peak3d" version="2.6.0-37-gca4138a">
+</addon><addon id="inputstream.adaptive.testing" name="InputStream Adaptive Testing" provider-name="peak3d" version="2.6.0.3">
   <requires>
 <import addon="kodi.binary.global.main" version="1.0.14" />
 <import addon="kodi.binary.global.general" version="1.0.3" />
@@ -165,7 +165,11 @@
     <description lang="en_GB">InputStream client for adaptive streams</description>
     <description lang="es_ES">Cliente InputStream para flujo de datos adaptativos</description>
     <platform>osx-x86_64</platform>
-    <news>[B]Version v2.6.0-37-gca4138a[/B]
+    <news>[B]Version v2.6.0.3[/B]
+- only deploy on tags, error handle deploy script
+
+[B]Version 2.6.0.2[/B]
+- Update build-ia.sh
 - add remaining builds
 - wrong branch name
 - deploy try 2
@@ -188,5 +192,5 @@
 
 [B]Version 2.6.0[/B]
 - Initial version
-</news><path>inputstream.adaptive.testing+osx-x86_64/inputstream.adaptive.testing-2.6.0-37-gca4138a.zip</path></extension>
+</news><path>inputstream.adaptive.testing+osx-x86_64/inputstream.adaptive.testing-2.6.0.3.zip</path></extension>
 </addon></addons>
