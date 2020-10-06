@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="inputstream.adaptive.testing" name="InputStream Adaptive Testing" provider-name="peak3d" version="2.6.0-37-gca4138a">
+<addons><addon id="inputstream.adaptive.testing" name="InputStream Adaptive Testing" provider-name="peak3d" version="2.6.0.3">
   <requires>
 <import addon="kodi.binary.global.main" minversion="1.2.0" version="1.2.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.0" version="1.1.6" />
-<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.2" />
+<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.3" />
 <import addon="kodi.binary.instance.inputstream" minversion="2.3.1" version="2.3.3" />
 <import addon="kodi.binary.instance.videocodec" minversion="1.0.2" version="1.0.3" /></requires>
   <extension extension="" library_linux="inputstream.adaptive.testing.so.2.6.0" listitemprops="license_type|license_key|license_data|license_flags|manifest_type|server_certificate|stream_headers|manifest_update_parameter|original_audio_language|media_renewal_url|media_renewal_time|max_bandwidth|play_timeshift_buffer" name="adaptive" point="kodi.inputstream" tags="true" />
@@ -14,7 +14,11 @@
     <description lang="en_GB">InputStream client for adaptive streams</description>
     <description lang="es_ES">Cliente InputStream para flujo de datos adaptativos</description>
     <platform>linux</platform>
-    <news>[B]Version v2.6.0-37-gca4138a[/B]
+    <news>[B]Version v2.6.0.3[/B]
+- only deploy on tags, error handle deploy script
+
+[B]Version 2.6.0.2[/B]
+- Update build-ia.sh
 - add remaining builds
 - wrong branch name
 - deploy try 2
@@ -37,5 +41,5 @@
 
 [B]Version 2.6.0[/B]
 - Initial version
-</news><path>inputstream.adaptive.testing+linux/inputstream.adaptive.testing-2.6.0-37-gca4138a.zip</path></extension>
+</news><path>inputstream.adaptive.testing+linux/inputstream.adaptive.testing-2.6.0.3.zip</path></extension>
 </addon></addons>
