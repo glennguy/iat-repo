@@ -1,0 +1,35 @@
+[B]Version v2.6.0.5[/B]
+- more cleanup
+- Don't remove old versions on API bump
+
+[B]Version v2.6.0.4[/B]
+- cleanup
+- Update .travis.yml
+
+[B]Version v2.6.0.3[/B]
+- only deploy on tags, error handle deploy script
+
+[B]Version 2.6.0.2[/B]
+- Update build-ia.sh
+- add remaining builds
+- wrong branch name
+- deploy try 2
+- deploy/merge
+- windows workspace folder fix
+- Install tree
+- Update .travis.yml
+- Update deploy.sh
+- Update build-ia.sh
+- deploy windows, fix mac matrix
+- fix
+- Update .travis.yml
+- Update build-ia.sh
+- this it?
+- Update build-ia.sh
+- fixed
+- Update build-ia.sh
+- update
+- Update build-ia.sh
+
+[B]Version 2.6.0[/B]
+- Initial version

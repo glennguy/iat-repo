@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="inputstream.adaptive.testing" name="InputStream Adaptive Testing" provider-name="peak3d" version="2.6.0.4">
+<addon id="inputstream.adaptive.testing" name="InputStream Adaptive Testing" provider-name="peak3d" version="2.6.0.5">
   <requires>
 <import addon="kodi.binary.global.main" version="1.0.14" />
 <import addon="kodi.binary.global.general" version="1.0.3" />
@@ -13,7 +13,11 @@
     <description lang="en_GB">InputStream client for adaptive streams</description>
     <description lang="es_ES">Cliente InputStream para flujo de datos adaptativos</description>
     <platform>windows-x86_64</platform>
-    <news>[B]Version v2.6.0.4[/B]
+    <news>[B]Version v2.6.0.5[/B]
+- more cleanup
+- Don't remove old versions on API bump
+
+[B]Version v2.6.0.4[/B]
 - cleanup
 - Update .travis.yml
 
